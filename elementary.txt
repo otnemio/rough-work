@@ -1,0 +1,27 @@
+Rough Work | Elementary OS
+
+1. Printer installation:
+hp-setup command
+
+2. After VS Code installation:
+
+Problem faced-
+Err:1 http://packages.microsoft.com/repos
+Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+
+Reolution-
+Removed VS Code from apt
+installed VS Code from snap
+sudo snap install --classic code
+
+Reason-
+Possibly 
+/etc/resolv.conf
+sudo systemctl stop systemd-resolved
+Err:1 is gone because of this or for some other reason.
+now VS Code can be installed using apt too.
+
+Next-
+Need to figure out why it was happening.
+
+3. comma format numbers indian libreoffice calc
