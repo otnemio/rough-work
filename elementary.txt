@@ -6,10 +6,11 @@ hp-setup command
 2. After VS Code installation:
 
 Problem faced-
+apt gives error
 Err:1 http://packages.microsoft.com/repos
 Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
 
-Reolution-
+Resolution-
 Removed VS Code from apt
 installed VS Code from snap
 sudo snap install --classic code
