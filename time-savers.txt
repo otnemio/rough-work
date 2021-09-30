@@ -1,0 +1,8 @@
+Youtube:
+Speed Up a Video [ > ] or Slow it Down [ < ] by Changing the Playback Speed
+What keys to press:
+press [ shift + . ] to speed up
+press [ shift + , ] to slow down
+
+External Website Links:
+https://www.freecodecamp.org/news/youtube-keyboard-shortcut-hotkey-list-repeat-speed-subtitles/
