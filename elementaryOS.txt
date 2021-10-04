@@ -16,7 +16,7 @@ installed VS Code from snap
 sudo snap install --classic code
 
 Reason-
-Possibly 
+I don't know. 
 /etc/resolv.conf
 sudo systemctl stop systemd-resolved
 Err:1 is gone because of this or for some other reason. Time on the machine was also not correct.
