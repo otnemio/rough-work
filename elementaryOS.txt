@@ -26,3 +26,19 @@ Next-
 Need to figure out why it was happening.
 
 3. comma format numbers indian libreoffice calc
+
+4. sudo apt update error-
+Traceback (most recent call last):                           
+  File "/usr/lib/cnf-update-db", line 8, in <module>
+    from CommandNotFound.db.creator import DbCreator
+  File "/usr/lib/python3/dist-packages/CommandNotFound/db/creator.py", line 11, in <module>
+    import apt_pkg
+ModuleNotFoundError: No module named 'apt_pkg'
+Reading package lists... Done
+E: Problem executing scripts APT::Update::Post-Invoke-Success 'if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi'
+E: Sub-process returned an error code
+Resolution-
+cd /usr/lib/python3/dist-packages
+sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
+Read from:
+https://flutterq.com/solved-python-dev-installation-error-importerror-no-module-named-apt_pkg/
