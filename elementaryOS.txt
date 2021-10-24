@@ -19,7 +19,7 @@ Reason-
 I don't know. 
 /etc/resolv.conf
 sudo systemctl stop systemd-resolved
-Err:1 is gone because of this or for some other reason. Time on the machine was also not correct.
+Err:1 is gone because of this or for some other reason. Server certificate issues at that time on internet. Time on the machine was also not correct.
 now VS Code can be installed using apt too.
 
 Next-
